@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="shortcut icon" href="#" />
+
     <title>Alex Audio Preview</title>
     <meta charset="UTF-8" />
 
@@ -21,12 +23,16 @@
   <body>
     <div id="upperDiv">
     <h1 id="title">Alex's Music Preview :D</h1>
-	  <p>Today we have Tyler, The Creator
+	  <p>Tyler, The Creator - 
 		See You Again x Earfquake :D</p>
     <audio controls id="audio">
 	    <source src="src/file.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
       </audio>
+
+      <script>
+        document.getElementById('audio').volume = 0.2;
+     </script>
     </div>
   </body>
 </html>
