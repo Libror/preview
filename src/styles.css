@@ -1,7 +1,12 @@
 body {
-  font-family: sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 #title {
   text-align: center;
+}
+
+#upperDiv {
+  display: flex;
+  justify-content: center;
 }
